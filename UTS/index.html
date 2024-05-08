@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Data Klasemen</title>
+</head>
+<body>
+    <h1>Input Data Klasemen Piala Asia U-23 Qatar Group B</h1>
+    <form action="process.php" method="POST">
+        <label>Nama Negara:</label>
+        <select name="negara">
+            <option value="Korea Selatan U-23">Korea Selatan U-23</option>
+            <option value="Jepang U-23">Jepang U-23</option>
+            <option value="Tiongkok U-23">Tiongkok U-23</option>
+            <option value="Uni Emirat Arab U-23">Uni Emirat Arab U-23</option>
+        </select>
+        <br>
+        <label>Jumlah Pertandingan (P):</label>
+        <input type="number" name="pertandingan" required>
+        <br>
+        <label>Jumlah Menang (M):</label>
+        <input type="number" name="menang" required>
+        <br>
+        <label>Jumlah Seri (S):</label>
+        <input type="number" name="seri" required>
+        <br>
+        <label>Jumlah Kalah (K):</label>
+        <input type="number" name="kalah" required>
+        <br>
+        <label>Jumlah Poin:</label>
+        <input type="number" name="poin" required>
+        <br>
+        <label>Nama Operator:</label>
+        <input type="text" name="operator" required>
+        <br>
+        <label>NIM Mahasiswa:</label>
+        <input type="text" name="nim" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
